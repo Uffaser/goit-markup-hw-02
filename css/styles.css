@@ -92,6 +92,7 @@ h2 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -119,7 +120,7 @@ h2 {
 }
 
 .benefits-list-title {
-
+    letter-spacing: 0.02em;
 }
 
 .benefits-list-text {
@@ -137,6 +138,7 @@ h2 {
 .team-title {
     color: #2e2f42;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -145,7 +147,7 @@ h2 {
  }
 
  .team-card-title {
-
+    letter-spacing: 0.02em;
  }
 
  .team-card-text {
@@ -160,15 +162,25 @@ h2 {
 .portfolio {
 }
 
+.portfolio-title {
+    letter-spacing: 0.02em;
+}
+
 .portfolio-card {
     background-color: #ffffff;
 }
 
 .portfolio-card-title {
     color: #2e2f42;
-    line-height: 1.11;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
+.portfolio-card-text {
+
+}
+
 
 /* footer */
 
