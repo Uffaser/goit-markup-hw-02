@@ -6,8 +6,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #434455;
-    background-color: #fcfcfc;
-    letter-spacing: 0.02;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
 button {
@@ -29,23 +29,10 @@ h3 {
     line-height: 1.2;
 }
 
-.logo {
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: left;
-    text-transform: uppercase;
-    color: #2E2F42;
-}
-
-.span-logo {
-    color: #4D5AE5;
-}
-
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-align: center;
 }
 
@@ -53,15 +40,36 @@ h2 {
 /* header */
 
 
-.link {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.333;
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.span-logo {
     color: #2E2F42;
 }
 
-address .link {
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.contasts {
+    font-style: normal;
+}
+
+.contasts .link {
     font-weight: inherit;
+    color: #434455;
 }
 
 .link:hover,
@@ -83,25 +91,40 @@ address .link {
 .title {
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.071;
+    line-height: 1.07;
 }
 
 .hero-button {
     font-weight: 500;
-    letter-spacing: 0.04;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: currentColor;
     background-color: #4D5AE5;
 }
 
 .hero-button:hover,
 .hero-button:focus {
+    background-color: #404BBF;
 }
 
 
 /* benefits */
 
 
+.benefits {
+}
 
+.benefits-title {
+
+}
+
+.benefits-list-title {
+
+}
+
+.benefits-list-text {
+
+}
 
 
 /* team */
@@ -111,27 +134,50 @@ address .link {
     background-color: #F4F4FD;
 }
 
+.team-title {
+    color: #2e2f42;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
  .team-card {
     background-color: #ffffff;
+ }
+
+ .team-card-title {
+
+ }
+
+ .team-card-text {
+    font-size: 16px;
  }
 
 
 /* portfolio */
 
 
+
+.portfolio {
+}
+
 .portfolio-card {
     background-color: #ffffff;
 }
 
+.portfolio-card-title {
+    color: #2e2f42;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
 
 /* footer */
 
 
-footer {
+.footer {
     background-color: #2E2F42;
 }
 
-.footer-span-logo{
+.footer-span-logo {
     color: #F4F4FD;
 }
 
